@@ -1,9 +1,12 @@
 import "./App.css";
-
+import Layout from "./layout/Layout";
+import Home from "./pages/Home";
 function App() {
     return (
         <div className="App">
-            <div className="bg-primary">welcome to Mizuki's portfolio</div>
+            <Layout>
+              <Home />
+            </Layout>
         </div>
     );
 }
